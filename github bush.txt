@@ -1,39 +1,39 @@
-1.µÚÒ»²½£º½øÈë¹¤×÷Ä¿Â¼ÏÂ
+1.ç¬¬ä¸€æ­¥ï¼šè¿›å…¥å·¥ä½œç›®å½•ä¸‹
 
 cd D:\PycharmProjects\new project
 
-µÚ¶ş²½£ºÅäÖÃ 
+ç¬¬äºŒæ­¥ï¼šé…ç½® 
 
 git config --global user.name 'linxue-shang'
 git config --global user.email 'linash6263@163.com'
 
-µÚÈı²½£º²éÏÂÅäÖÃ³É¹¦£¿
+ç¬¬ä¸‰æ­¥ï¼šæŸ¥ä¸‹é…ç½®æˆåŠŸï¼Ÿ
 
 git config -l
 
-µÚËÄ²½ ½øÈë
+ç¬¬å››æ­¥ è¿›å…¥
 
 git init
 
-Áª½Ó
+è”æ¥
 
 git remote add origin https://github.com/linxue-shang/text
 
-µÚÎå²½ ²é¿´±¾µØÎÄ¼ş±ä»¯
+ç¬¬äº”æ­¥ æŸ¥çœ‹æœ¬åœ°æ–‡ä»¶å˜åŒ–
 
 git status
 
-#ºìÉ«ÊÇÓĞ±ä»¯¡±
+#çº¢è‰²æ˜¯æœ‰å˜åŒ–â€
 
-µÚ6²½ ¼Ó×°±¾µØ
+ç¬¬6æ­¥ åŠ è£…æœ¬åœ°
 
 git add *
 
-µÚÆß²½ ±ê×¢
+ç¬¬ä¸ƒæ­¥ æ ‡æ³¨
 
- gti commit -m '¸ü¸Ä±ê×¢¡¯
+ git commit -m 'æ›´æ”¹æ ‡æ³¨â€™
 
-µÚ°Ë²½  ÍÆµ½github 
+ç¬¬å…«æ­¥  æ¨åˆ°github 
 
 
 git push -u origin master
