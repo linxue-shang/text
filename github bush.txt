@@ -1,0 +1,39 @@
+1.第一步：进入工作目录下
+
+cd D:\PycharmProjects\new project
+
+第二步：配置 
+
+git config --global user.name 'linxue-shang'
+git config --global user.email 'linash6263@163.com'
+
+第三步：查下配置成功？
+
+git config -l
+
+第四步 进入
+
+git init
+
+联接
+
+git remote add origin https://github.com/linxue-shang/text
+
+第五步 查看本地文件变化
+
+git status
+
+#红色是有变化”
+
+第6步 加装本地
+
+git add *
+
+第七步 标注
+
+ gti commit -m '更改标注’
+
+第八步  推到github 
+
+
+git push -u origin master
